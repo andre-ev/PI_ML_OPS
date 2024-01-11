@@ -1,0 +1,11 @@
+*.json.gz
+*copy.ipynb
+*copy.md
+*.csv
+*.csv.gz
+__pycache__/
+pi001/
+Data/parquet/user_sim.parquet
+Data/parquet/game_sim.parquet
+Data/parquet/game_sim.parquet.gz
+Data/parquet/user_sim.parquet.gz
