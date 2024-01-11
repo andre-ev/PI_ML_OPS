@@ -132,6 +132,6 @@ def get_recommendations_by_id(item_id: int = Query(...,  # Define una función
                                 example='322920')):
     return ft.item_similarity(item_id) # Devuelve el resultado de la función
 
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run(app, host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
