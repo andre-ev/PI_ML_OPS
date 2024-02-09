@@ -5,6 +5,7 @@
 *.csv.gz
 __pycache__/
 pi001/
+.venv/
 Data/parquet/user_sim.parquet
 Data/parquet/game_sim.parquet
 Data/parquet/game_sim.parquet.gz
